@@ -22,8 +22,8 @@
     align-self: center;
     width: 300px;
     padding: 0.5em 0;
-    background-color: dodgerblue;
-    border: none;
+    background-color: transparent;
+    border: 1px solid;
     border-radius: .5em;
     cursor: pointer;
   }
@@ -36,7 +36,7 @@ main {
   grid-gap: 0px;
 
   app-square {
-    border: 1px gray solid;
+    border: 1px solid;
     height: 100px;
     display: flex;
   }
